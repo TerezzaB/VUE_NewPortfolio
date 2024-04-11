@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --tw-bg-opacity: 1;
+    --main-color: #a87cff;
+    --second-color: #6e26ff;
+    --third-color: #40ffff;
+    
+}
+
+html {
+    background-color: #14142a;
+    color: #F3F8FF;
+}

@@ -1,5 +1,18 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
 
-createApp(App).use(router).mount('#app')
+import './index.css';
+import PrimeVue from 'primevue/config';
+import 'primevue/resources/primevue.min.css'; 
+import 'primeicons/primeicons.css';
+
+import TabMenu from 'primevue/tabmenu';
+
+const app = createApp(App);
+
+app.use(PrimeVue);
+app.use(router);
+app.component('P-TabMenu', TabMenu);
+
+app.mount('#app');
