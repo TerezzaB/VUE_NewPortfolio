@@ -3,8 +3,8 @@
     <div class="flex-none w-20"><i class="pi pi-star"></i><i class="pi pi-sparkles"></i></div>
     <div class="flex-1 w-30"></div>
     <div class="flex-1 w-50">
-      <router-link to="/" class="mr-5">Home</router-link>
-      <router-link :to="{ name: 'About' }" class="mr-5">About</router-link>
+      <router-link to="/" class="mr-10">Home</router-link>
+      <router-link :to="{ name: 'About' }" class="mr-10">About</router-link>
       <router-link :to="{ name: 'Contact' }">Contact</router-link>
     </div>
   </nav>

@@ -9,6 +9,7 @@
     --second-color: #6e26ff;
     --third-color: #40ffff;
     
+    --gradient: linear-gradient(90deg, var(--main-color), var(--second-color));
 }
 
 html {
