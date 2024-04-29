@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import App from './App.vue';
+import { Library } from '@heroicons/vue'
 import router from './router';
 
 import './index.css';
@@ -14,5 +15,6 @@ const app = createApp(App);
 app.use(PrimeVue);
 app.use(router);
 app.component('P-TabMenu', TabMenu);
+app.component('Icon', Library)
 
 app.mount('#app');

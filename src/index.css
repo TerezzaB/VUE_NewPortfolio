@@ -10,6 +10,7 @@
     --third-color: #40ffff;
     
     --gradient: linear-gradient(90deg, var(--main-color), var(--second-color));
+    --gradient2: linear-gradient(90deg, var(--third-color), var(--main-color));
 }
 
 html {
