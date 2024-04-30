@@ -18,10 +18,8 @@ export default {
 
   methods: {
     scrollToSkillSet() {
-      // Get the position of the AboutComponent
       const componentPosition = this.$refs.skillSetComponent.$el.offsetTop;
 
-      // Scroll to the AboutComponent's position
       window.scrollTo({
         top: componentPosition,
         behavior: 'smooth'

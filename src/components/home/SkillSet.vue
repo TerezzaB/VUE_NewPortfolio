@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <div class="header text-left"><h3 class="mt-20">Technologies I'm learning:</h3></div>
+    <div class="header text-left"><h3 class="mt-20">Technologies I'm currently learning:</h3></div>
 
     <div class="wrapper">
         <div class="grid grid-cols-5 gap-5 justify-items-center">
@@ -111,6 +111,5 @@
 
 .wrapper { padding: 5% 15%; }
 .wrapper .card { width: 200px; height: 200px;  }
-
 
 </style>

@@ -9,7 +9,18 @@
     </div>
   </nav>
   <router-view/>
+  <Footer/>
 </template>
+
+<script>
+import Footer from './components/Footer.vue';
+
+export default {
+  components: {
+    Footer
+  }
+}
+</script>
 
 <style>
 #app {
@@ -19,9 +30,7 @@
   text-align: center;
 }
 
-nav { border-bottom: 1px solid var(--third-color); padding: 20px; font-weight: bold;}
+nav { border-bottom: 1px solid var(--third-color); padding: 20px; font-weight: bold; }
+nav a.router-link-exact-active { color: var(--main-color); }
 
-nav a.router-link-exact-active {
-  color: var(--main-color);
-}
 </style>
