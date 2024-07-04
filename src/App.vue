@@ -30,7 +30,8 @@ export default {
   text-align: center;
 }
 
-nav { border-bottom: 1px solid var(--third-color); padding: 20px; font-weight: bold; }
+
+    nav { position: sticky; top: 0; border-bottom: 1px solid var(--third-color); padding: 20px; font-weight: bold; background-color: #14142a;}
 nav a.router-link-exact-active { color: var(--main-color); }
 
 </style>
