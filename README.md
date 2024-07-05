@@ -17,3 +17,8 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Deployment
+
+This project is deployed using [Netlify](https://www.netlify.com).
