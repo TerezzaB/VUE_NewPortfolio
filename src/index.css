@@ -8,6 +8,7 @@
     --main-color: #a87cff;
     --second-color: #6e26ff;
     --third-color: #40ffff;
+    --fourth-color: #ff69b4;
     
     --gradient: linear-gradient(90deg, var(--main-color), var(--second-color));
     --gradient2: linear-gradient(90deg, var(--third-color), var(--main-color));

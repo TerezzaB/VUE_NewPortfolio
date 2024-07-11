@@ -35,10 +35,10 @@ export default {
 </script>
 
 <style scoped>
-    .wrapper { padding: 10% 12% }
+    .wrapper { padding-bottom: 10%; }
     .wrapper h1 { color: #FFF; font-size: 70px; font-weight: bold; line-height: 75px; margin-bottom: 30px; }
     .wrapper button { margin-top: 60px; padding: 12px 25px; font-weight: bold; border-radius: 25px; background: var(--gradient); }
-    .wrapper button:hover { box-shadow: var(--second-color, 0 0 #0000), var(--second-color, 0 0 #0000); transition: transform 0.5s; transform: scale(1.2);}
+    .wrapper button:hover { box-shadow: var(--second-color, 0 0 #0000), var(--second-color, 0 0 #0000); transition: transform 0.3s; transform: scale(1.2); cursor: pointer; }
 
     
     @keyframes arrowAnimation {

@@ -1,3 +1,11 @@
 <template>
-    <div>About Header Component</div>
+    
 </template>
+
+
+<script>
+
+</script>
+
+<style>
+</style>

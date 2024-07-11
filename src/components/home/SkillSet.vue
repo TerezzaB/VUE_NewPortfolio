@@ -104,7 +104,6 @@
 <style scoped>
 .header { padding-left: 60px; font-size: 40px; font-weight: bold; background: var(--gradient2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
-.wrapper { padding: 5% 15%; }
 .wrapper .card { width: 200px; height: 200px;  }
 
 </style>

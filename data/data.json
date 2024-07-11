@@ -1,0 +1,37 @@
+{
+    "home-header-text":"Hello, I'm Teresa - a front-end developer from Europe who loves crafting user-friendly websites and applications. I create websites primarily in Vue 3 and WordPress but also learn NodeJS and Docker for full-stack development. I also have some basic skills using Figma for UI/UX design.",
+    "about-text": "Hi there! I'm a dedicated Frontend Developer with two years of experience in the field.",
+    "posts": [
+        {
+            "status": "Computer Science Studies",
+            "date": "Sepember 2020 - August 2022",
+            "description": "From September 2020 to August 2022, I studied Computer Science, at Palacky University in Olomouc.",
+            "color": "#a87cff",
+            "icon": "pi pi-code"
+        },
+        {
+            "status": "Working at Total Avenger s.r.o.",
+            "date": "September 2022 - December 2023",
+            "description": "Following my studies, I joined Total Avengers, where I honed my skills in HTML, CSS, and JavaScript. During my time there, I worked on several notable projects, including Invest in Slovakia, Parkio, Clerk, UI Builder, and various smaller websites.",
+            "skills": "Skills:\u00A0\u00A0 HTML, CSS, JavaScript",
+            "color": "#a87cff",
+            "icon": "pi pi-code"
+        },
+        {
+            "status": "Working at GIS-Services s.r.o.",
+            "date": "January 2024 - Today",
+            "description": "Since January of this year, I've been working at GIS Services, specializing in geoinformation systems. Here, I utilize Angular and TypeScript, and work extensively with databases, primarily PostgreSQL.",
+            "skills": "Skills:\u00A0\u00A0 Angular, TypeScript, PostgreSQL",
+            "color": "#a87cff",
+            "icon": "pi pi-code"
+        },
+        {
+            "status": "Working at 3R Marketing s.r.o.",
+            "date": "May 2024 - Today",
+            "description": "In addition, since May, I've been employed at 3RMarketing, balancing two jobs simultaneously. At 3RMarketing, I create simple websites using WordPress and have also gained foundational knowledge in SEO.",
+            "skills": "Skills:\u00A0\u00A0 WordPress, SEO",
+            "color": "#a87cff",
+            "icon": "pi pi-code"
+        }
+    ]
+}

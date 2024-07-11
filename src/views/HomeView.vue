@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home-wrapper">
     <HomeHeader @scrollDown="scrollToSkillSet"/>
     <SkillSet ref="skillSetComponent"/>
   </div>
@@ -28,3 +28,8 @@ export default {
   }
 }
 </script>
+
+
+<style>
+.home-wrapper { max-width: 1300px; margin: 10% auto; }
+</style>
