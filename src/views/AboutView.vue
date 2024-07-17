@@ -1,7 +1,7 @@
 <template>
   <div class="about-wrapper">
-    <AboutHeader />
-    <AboutTimeline />
+    <AboutHeader @scrollDown="scrollToSkillSet"/>
+    <AboutTimeline ref="mySkills"/>
   </div>
 </template>
 
@@ -15,6 +15,16 @@ export default {
   components: {
     AboutHeader,
     AboutTimeline
+  },
+  methods: {
+    scrollToSkillSet() {
+      const componentPosition = this.$refs.mySkills.$el.offsetTop;
+
+      window.scrollTo({
+        top: componentPosition,
+        behavior: 'smooth'
+      });
+    }
   }
 }
 </script>

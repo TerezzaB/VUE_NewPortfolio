@@ -4,7 +4,7 @@
     <div class="flex-1 w-30"></div>
     <div class="flex-1 w-50">
       <router-link to="/" class="mr-10">Home</router-link>
-      <router-link :to="{ name: 'About' }" class="mr-10">About</router-link>
+      <router-link :to="{ name: 'About' }" class="mr-10">About Me</router-link>
       <router-link :to="{ name: 'Contact' }">Contact</router-link>
     </div>
   </nav>
@@ -23,14 +23,25 @@ export default {
 </script>
 
 <style>
+
+/* Global Header */
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-
-nav { position: sticky; top: 0; border-bottom: 1px solid var(--third-color); padding: 20px; font-weight: bold; background-color: #14142a;}
+nav { position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid var(--third-color); padding: 20px; font-weight: bold; background-color: #14142a;}
 nav a.router-link-exact-active { color: var(--main-color); }
 
+
+
+/* Moving Arrow in Home and About Page */
+@keyframes arrowAnimation {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  00% { transform: translateY(0); } 
+}
+.arrow_svg { animation: arrowAnimation 1s infinite; }
+.arrow_svg:hover { cursor: pointer; }
 </style>

@@ -40,13 +40,4 @@ export default {
     .wrapper button { margin-top: 60px; padding: 12px 25px; font-weight: bold; border-radius: 25px; background: var(--gradient); }
     .wrapper button:hover { box-shadow: var(--second-color, 0 0 #0000), var(--second-color, 0 0 #0000); transition: transform 0.3s; transform: scale(1.2); cursor: pointer; }
 
-    
-    @keyframes arrowAnimation {
-        0% { transform: translateY(0); }
-        50% { transform: translateY(-20px); }
-        100% { transform: translateY(0); } 
-    }
-
-    .arrow_svg { animation: arrowAnimation 1s infinite; }
-    .arrow_svg:hover { cursor: pointer; }
 </style>
