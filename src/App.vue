@@ -30,6 +30,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 nav { position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid var(--third-color); padding: 20px; font-weight: bold; background-color: #14142a;}
 nav a.router-link-exact-active { color: var(--main-color); }

@@ -1,5 +1,5 @@
 <template>
-  <div class="about-wrapper">
+  <div class="about-wrapper my-24 mx-10">
     <AboutHeader @scrollDown="scrollToSkillSet"/>
     <AboutTimeline ref="mySkills"/>
   </div>
@@ -28,8 +28,3 @@ export default {
   }
 }
 </script>
-
-
-<style>
-.about-wrapper { max-width: 1300px; margin: 10% auto; }
-</style>
