@@ -15,7 +15,7 @@
                         <div class="custom-text-subtitle">{{ slotProps.item.date }}</div>
                     </template>
                     <template #content>
-                        <div class="text-white">{{ slotProps.item.description }}</div>
+                        <div class="text-white" v-html="slotProps.item.description"></div>
                         <div class="text-white mt-10">
                             <b>
                                 <span>{{ slotProps.item.skills }}</span>
@@ -26,8 +26,8 @@
             </template>
         </P-Timeline>
     </div>
-
 </template>
+
 
 
 <script>

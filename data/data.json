@@ -1,10 +1,10 @@
 {
-    "home-header-text":"Hello, I'm Teresa - a front-end developer from Europe who loves crafting user-friendly websites and applications. I create websites primarily in Vue 3 and WordPress but also learn NodeJS and Docker for full-stack development. I also have some basic skills using Figma for UI/UX design.",
+    "home-header-text": "Hello, I'm Teresa - a front-end developer from Europe who loves crafting user-friendly websites and applications. I create websites primarily in Vue 3 and WordPress but also learn NodeJS and Docker for full-stack development. I also have some basic skills using Figma for UI/UX design.",
     "about-text": "Hi there! I'm a dedicated Frontend Developer with two years of experience in the field.",
     "posts": [
         {
             "status": "Computer Science Studies",
-            "date": "Sepember 2020 - August 2022",
+            "date": "September 2020 - August 2022",
             "description": "From September 2020 to August 2022, I studied Computer Science, at Palacky University in Olomouc.",
             "color": "#a87cff",
             "icon": "pi pi-code"
@@ -12,15 +12,15 @@
         {
             "status": "Working at Total Avenger s.r.o.",
             "date": "September 2022 - December 2023",
-            "description": "Following my studies, I joined Total Avengers, where I honed my skills in HTML, CSS, and JavaScript. During my time there, I worked on several notable projects, including Invest in Slovakia, Parkio, Clerk, UI Builder, and various smaller websites.",
-            "skills": "Skills:\u00A0\u00A0 HTML, CSS, JavaScript",
+            "description": "Following my studies, I joined Total Avengers, where I honed my skills in HTML, CSS, and JavaScript. During my time there, I worked on several notable projects, including <b>Invest in Slovakia</b>, <b>Parkio</b>, <b>Clerk</b>, <b>UI Builder</b>, and various smaller websites.",
+            "skills": "Skills:\u00A0\u00A0 HTML, CSS, JavaScript, GitHub",
             "color": "#a87cff",
             "icon": "pi pi-code"
         },
         {
             "status": "Working at GIS-Services s.r.o.",
-            "date": "January 2024 - Today",
-            "description": "Since January of this year, I've been working at GIS Services, specializing in geoinformation systems. Here, I utilize Angular and TypeScript, and work extensively with databases, primarily PostgreSQL.",
+            "date": "January 2024 - July 2024",
+            "description": "Since January 2024, I've been working at GIS Services, specializing in geoinformation systems. Here, I utilized Angular and TypeScript, and worked extensively with databases, primarily PostgreSQL. I also contributed to the development of the geoinformation application <b>Tablano</b>.",
             "skills": "Skills:\u00A0\u00A0 Angular, TypeScript, PostgreSQL",
             "color": "#a87cff",
             "icon": "pi pi-code"
@@ -28,8 +28,24 @@
         {
             "status": "Working at 3R Marketing s.r.o.",
             "date": "May 2024 - Today",
-            "description": "In addition, since May, I've been employed at 3RMarketing, balancing two jobs simultaneously. At 3RMarketing, I create simple websites using WordPress and have also gained foundational knowledge in SEO.",
+            "description": "In addition, since May, I've been employed at 3RMarketing, balancing two jobs simultaneously. At 3RMarketing, I create simple websites using <b>WordPress</b> and have also gained foundational knowledge in <b>SEO</b>.",
             "skills": "Skills:\u00A0\u00A0 WordPress, SEO",
+            "color": "#a87cff",
+            "icon": "pi pi-code"
+        },
+        {
+            "status": "Working as a Freelancer s.r.o.",
+            "date": "September 2024 - November 2024",
+            "description": "I worked at Websupport in Bratislava, where I was involved in various projects, including <b>Admin/Superadmin</b>, <b>WebmailLogin</b>, <b>Cart</b>, and <b>AuthService</b>. We also developed our own UIKIT library, which we versioned. During this time, I enhanced my skills in unit testing using Vitest.",
+            "skills": "Skills:\u00A0\u00A0 VueJS, Vitest, TypeScript, Docker, Gitlab, Quasar",
+            "color": "#a87cff",
+            "icon": "pi pi-code"
+        },
+        {
+            "status": "Working as a Freelancer",
+            "date": "December 2024 - Today",
+            "description": "Since December 2024, after my previous company ended our collaboration, I have been working as a freelance developer. I am currently developing a <b>Key Performance Indicator application</b> for a client.",
+            "skills": "Skills:\u00A0\u00A0 React, JavaScript, Firebase, Tailwind",
             "color": "#a87cff",
             "icon": "pi pi-code"
         }

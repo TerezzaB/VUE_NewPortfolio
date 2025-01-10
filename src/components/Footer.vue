@@ -1,7 +1,7 @@
 <template>
     <footer class="footer">
         <div class="flex justify-between flex-padding">
-            <div>© 2024</div>
+            <div>© 2025</div>
             <div class="flex justify-end gap-5">
                 <div class="f-icon">
                     <a href="https://www.linkedin.com/in/terezzab/" target="_blank">

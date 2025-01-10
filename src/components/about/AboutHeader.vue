@@ -2,7 +2,9 @@
     <div class="text-left flex flex-col sm:flex-row justify-between">
         <div class="flex flex-col">
             <h1 class="text-white font-bold mb-8 text-4xl sm:text-7xl">About Me</h1>
-            <div class="pulse-button" @click="goToContact"><button class="font-bold text-lg mt-16 py-3 px-6 rounded-3xl bg-gradient-1">Contact Me!</button></div>
+            <div class="pulse-button" @click="goToContact">
+                <button class="font-bold text-lg mt-16 py-3 px-6 rounded-3xl bg-gradient-1">Contact Me!</button>
+            </div>
         </div>
         <p class="text-lg">
             I'm passionate about crafting clean and efficient code that brings ideas to life. <br>
@@ -20,25 +22,24 @@
     </div>
 </template>
 
-
-
-
 <script>
-import { ref, onMounted } from 'vue';
-import jsonData from '../../../data/data.json';
+import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 
 export default {
-  setup() {
-    const events = ref([]);
+  name: 'AboutHeader',
+  props: {
+    onScrollDown: Function
+  },
+  setup(_, { emit }) {
     const router = useRouter();
 
     const goToContact = () => {
-        router.push('Contact');
+      router.push('Contact');
     };
 
     const handleClick = () => {
-        this.$emit('scrollDown');
+      emit('scrollDown');
     };
 
     return {
@@ -50,5 +51,10 @@ export default {
 </script>
 
 <style scoped>
-    button:hover { box-shadow: var(--second-color, 0 0 #0000), var(--second-color, 0 0 #0000); transition: transform 0.3s; transform: scale(1.2); cursor: pointer; }
+button:hover {
+    box-shadow: var(--second-color, 0 0 #0000), var(--second-color, 0 0 #0000);
+    transition: transform 0.3s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
 </style>
